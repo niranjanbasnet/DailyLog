@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DiaPlanner</string>
+    <string name="navigation_drawer_close">Navigation schließen</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="hello_blank_fragment">Hallo Welt</string>
+    <string name="menu_item_activity_input">Aktivitäten Eingabe</string>
+    <string name="listItem123">92734098879.sqlite</string>
+    <string name="menu_item_daily_routine">Tagesablauf</string>
+    <string name="menu_item_help_about">Hilfe/ Über</string>
+    <string name="menu_item_history">Verlauf</string>
+    <string name="menu_item_settings">Einstellungen</string>
+    <string name="menu_item_statistics">Statistiken</string>
+    <string name="navigation_drawer_open">Navigation öffnen</string>
+    <string name="no_activities">Keine Aktivitäten vorhanden</string>
+    <string name="ok">OK</string>
+    <string name="pref_blood_sugar">Blutzuckerwert</string>
+    <string name="pref_blood_sugar_summary">Blutzucker eingeben</string>
+    <string name="pref_help">Hilfe</string>
+    <string name="pref_help_summary">Tutorial</string>
+    <string name="pref_dbexport">Datenbank Export</string>
+    <string name="pref_dbexport_summary">Exportiert die SQL-Datenbank auf das Handy</string>
+    <string name="pref_dbexport_message">Willst du wirklich die SQL-Datenbank auf das Handy exportieren?</string>
+
+    <string name="pref_name">Vor- und Nachname</string>
+    <string name="pref_name_summary">Platzhalter</string>
+    <string name="pref_other">Anderes</string>
+    <string name="pref_popup">Popup Benachrichtigungen</string>
+    <string name="pref_profile">Nutzerprofil</string>
+
+    <string name="pref_sound">Benachrichtigungston</string>
+    <string name="pref_version">Version</string>
+    <string name="pref_version_summary">1.0.1</string>
+    <string name="pref_vibration">Bei Benachrichtigung vibrieren</string>
+    <string name="pref_weight">Gewicht</string>
+    <string name="pref_weight_summary">Gewicht eingeben</string>
+    <string name="pref_blood_sugar_dialogtitle">Blutzuckerwert eingeben</string>
+
+    <string name="pref_weight_measurement">Gewichtseinheiten</string>
+    <string name="pref_weight_measurement_summary">Wähle eine Gewichtseinheit</string>
+
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="username">Max Mustermann</string>
+    <string name="menu_item_share">Teilen</string>
+    <string name="communicate">Kommunikation</string>
+    <string name="no_data">Keine Daten vorhanden</string>
+    <string name="activity_end">Ende</string>
+    <string name="activity_start">Start</string>
+
+    <!-- Notfications-->
+    <string name="pref_notification">Benachrichtigungen</string>
+    <string name="pref_assistant_summary">Stoppt die Assistenten Benachrichtigungen</string>
+    <string name="pref_datacollection">Datensammlung</string>
+    <string name="pref_datacollection_summary">Datensammlung an-/abschalten</string>
+
+    <!-- Prediction Model -->
+    <string name="pref_reset_dialog_message">Sind Sie sich sicher, dass Sie das Vorhersagemodell zurücksetzen möchten?</string>
+    <string name="pref_reset">Vorhersagemodell zurücksetzen</string>
+    <string name="pref_reset_summary">Stellt das Vorhersagemodell zurück.</string>
+    <string name="reset">Zurücksetzen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="export">Exportieren</string>
+
+    <string name="help_welcome">Willkommen!</string>
+    <string name="help_welcome_msg"><i><b>Hier ist eine kurze Einführung für den DiaPlanner</b> </i> \n
+    </string>
+
+    <string name="help_welcome_msg2">
+
+    DiaPlanner hilt dir bei deinem Tagesablauf und soll dich speziell für den Umgang mit Diabetes unterstützen. \n\n
+
+    Die wichtigsten Grundfunktionen sind: \n \n
+    - Aktivitäten-Log - \n
+    - Vorhersage des Tagesablaufs - \n
+    - Messwerte-Statistik - \n
+    - Ernährungstipps - \n
+    - Aktivitäten-Empfehlungen - \n
+
+    </string>
+
+    <string name="pref_datacollection_dialog">Möchten Sie wirklich die Datensammlung beenden? Dadurch werden die Vorhersagen ungenau.</string>
+    <string name="Yes">Ja</string>
+    <string name="No">Nein</string>
+    <string name="pref_vacation_title">Urlaubsmodus</string>
+    <string name="pref_vacation_summary">Im Urlaubsmodus werden keine Daten gesammelt und das Vorhersagemodell wird nicht angewendet.</string>
+    <string name="history_choose_date">Datum auswählen:</string>
+    <string name="date_in_future">Gewähltes Datum liegt in der Zukunft</string>
+    <string name="add_dialog_title">Aktivität hinzufügen</string>
+    <string name="activity">Aktivität</string>
+    <string name="subactivity">Unteraktivität</string>
+    <string name="edit">Ändern</string>
+    <string name="add">Hinzufügen</string>
+    <string name="edit_dialog_title">Aktivität ändern</string>
+    <string name="endtime">Endzeit</string>
+    <string name="starttime">Startzeit</string>
+    <string name="DoneButton">Fertig</string>
+    <string name="Friday">Freitag</string>
+    <string name="Monday">Montag</string>
+    <string name="Saturday">Samstag</string>
+    <string name="Sonntag">Sonntag</string>
+    <string name="Thursday">Donnerstag</string>
+    <string name="Tuesday">Dienstag</string>
+    <string name="Wednesday">Mittwoch</string>
+    <string name="Sunday">Sonntag</string>
+    <string name="invalid_time">Startzeit muss vor Endzeit liegen!</string>
+    <string name="duration">Dauer</string>
+    <string name="end">Ende</string>
+    <string name="start">Start</string>
+    <string name="add_activity">Aktivität hinzufügen</string>
+    <string name="milligram_dl">mg/dl</string>
+    <string name="mmol_l">mmol/l</string>
+    <string name="meal">Mahlzeit</string>
+    <string name="Description">Beschreibung</string>
+    <string name="insulinText">Insulin Dosis</string>
+    <string name="bloodsugar_prompt">Blutzuckerwert eintragen</string>
+    <string name="bloodsugar_date">Datum eingeben:</string>
+    <string name="bloodsugar_time">Uhrzeit eingeben:</string>
+    <string name="hint_measurement">Blutzuckerwert eingeben</string>
+    <string name="activity_limit">Eine Aktivität muss übrig bleiben</string>
+    <string name="bloodSugar">Blutzucker</string>
+    <string name="gl">Glukoselevel</string>
+    <string name="glucoseTextField">mg/dl</string>
+    <string name="image_failed">Foto schießen fehlgeschlagen</string>
+    <string name="insulinLabel">Insulin Dosis</string>
+    <string name="menu_item_activity_measurement">Aktivität/ Messwert</string>
+    <string name="percentage">in %</string>
+    <string name="pref_blood_sugar_dialogtitel">Blutzuckerwert</string>
+    <string name="pref_predModel">Vorhersagen</string>
+    <string name="insulinTextField">Einheit/mL</string>
+    <string name="submit">Absenden</string>
+    <string name="submit2">Eintragen</string>
+    <string name="intensity">Intensität</string>
+    <string name="high">hoch</string>
+    <string name="low">niedrig</string>
+    <string name="medium">mittel</string>
+    <string name="at">um</string>
+    <string name="recommendation">DiaPlanner empfiehlt dir...</string>
+    <string name="pref_assistant_notification">Assistenten Benachrichtigung</string>
+    <string name="rec_bs_above_200">Dein Blutzuckerspiegel ist gefährlich hoch, du solltest Insulin spritzen.</string>
+    <string name="rec_bs_between_150_200">Dein Blutzuckerspiegel ist hoch, mach doch etwas Sport.</string>
+    <string name="rec_bs_blow_100">Dein Blutzuckerspiegel ist zu niedrig, du solltest etwas essen.</string>
+    <string name="add_blood_sugar_level">Blutzuckerspiegel hinzufügen</string>
+    <string name="add_insulin_dosage">Insulin hinzufügen</string>
+    <string name="an">einen</string>
+    <string name="and">und</string>
+    <string name="apple">Apfel</string>
+    <string name="apples">Äpfel</string>
+    <string name="b_potatoes">gekochte Kartoffeln</string>
+    <string name="diet_soda">Diätwasser</string>
+    <string name="enter_insulin_dosage">Insulinwert eingeben</string>
+    <string name="input_measurements">Messwerte eingeben</string>
+    <string name="kale">Kohl - gekocht</string>
+    <string name="m_date">Datum</string>
+    <string name="m_time">Zeit</string>
+    <string name="menu_item_activity">Aktivität</string>
+    <string name="ml_cc">mL/cc</string>
+    <string name="orange">Orange</string>
+    <string name="quinoa">Quinoa</string>
+    <string name="recom_pre">Daher empfehlen wir dir</string>
+    <string name="reg_soda">normales Wasser</string>
+    <string name="strawberry">Erdbeere</string>
+    <string name="tea">ungesüßten Tee</string>
+    <string name="tuna">Thunfisch</string>
+    <string name="two">zwei</string>
+    <string name="units">Einheiten</string>
+    <string name="yoghurt">Naturjoghurt</string>
+    <string name="your_activity">Deine vorherige Aktivität war</string>
+    <string name="banana">Banane</string>
+    <string name="a">einen</string>
+    <string name="a_eine">eine</string>
+    <string name="an_eine">eine</string>
+    <string name="or">oder</string>
+    <string name="a_ein">ein</string>
+    <string name="ADD">Hinzufügen</string>
+    <string name="pref_activity_rec">Empfehlung von Aktivitiäten</string>
+    <string name="pref_bs_input">Erinnerung zur Blutzuckerspiegel Eingabe</string>
+    <string name="pref_help_dialog_message"></string>
+    <string name="pref_food_rec">Ernährungsempfehlungen</string>
+    <string name="pref_rec">Empfehlungen</string>
+    <string name="algos">Verwendete Algorithmen</string>
+    <string name="algos_summary">Wähle einen oder mehrere Vorhersage Algorithmen</string>
+    <string name="insulinInput">Insulin Eingabe</string>
+    <string name="error_loading_data">Trainingsdaten konnten nicht geladen werden.</string>
+    <string name="predicting">Tagesablauf wird berechnet...</string>
+    <string name="pref_algos_reset">Vorhersage zurücksetzen</string>
+    <string name="pref_algos_reset_summary">Vorhersage für den aktuellen Tag zurücksetzen</string>
+    <string name="pref_algos_reset_message">Möchten Sie die Vorhersage wirklich zurücksetzen?</string>
+    <string name="loadingData">Lade in Datenbank...</string>
+    <string name="added">Hinzugefügt</string>
+    <string name="chosen">Gewählte Datei</string>
+    <string name="wrong_format">Dateiformat wird nicht unterstützt.</string>
+    <string name="usualBSM">Deine gewöhnliche Eingabe des Blutzuckerspiegels ist um</string>
+    <string name="timeToInputBS">Es wird Zeit dein Blutzuckerspiegel einzutragen.</string>
+    <string name="pred_mode">Detailliertheit der Vorhersage</string>
+    <string name="pred_mode_summary">Intervall das als Trainingsdaten benutzt wird</string>
+    <string name="allTime">All Time</string>
+    <string name="current_day">Heute</string>
+    <string name="last_week">Letzten 7 Tage</string>
+    <string name="last_month">Letzten 30 Tage</string>
+    <string name="all_time">All Time</string>
+    <string name="last_year">Letzten 365 Tage</string>
+    <string name="activities">Aktivitäten</string>
+    <string name="error_time"></string>
+    <string name="error_date"></string>
+    <string name="everyday">Jeder Tag</string>
+    <string name="insulin_unit">Einheiten</string>
+    <string name="pref_blood_sugar_unit">Blutzucker Einheit</string>
+    <string name="pref_blood_sugar_preference">Bevorzugte Einheit</string>
+    <string name="pref_key_dt"></string>
+    <string name="pref_insulin_unit">Einheiten Insulin</string>
+    <string name="single_day">Heute</string>
+    <string name="weekday_weekend">Wochentage/ Wochenende</string>
+    <string name="measurements">Messwerte</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1"
+    android:padding="8dp"
+  >
+    <TableRow
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+        <TextView
+            android:id="@+id/txt"
+            android:textSize="@dimen/text_size"
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:textColor="@color/textColorPrimaryDark"
+           />
+
+        <ImageView
+            android:id="@+id/delete_icon_activity_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_delete"
+            android:layout_gravity="right"
+            android:layout_weight="0.2"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent">
+        <TextView
+            android:id="@+id/subtxt"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content" />
+    </TableRow>
+</TableLayout>

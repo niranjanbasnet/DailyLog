@@ -1,0 +1,255 @@
+<resources>
+    <string name="app_name">DiaPlanner</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+
+    <string name="username">Max Mustermann</string>
+
+    <string name="menu_item_daily_routine">Daily Routine</string>
+    <string name="menu_item_activity_input">Activity Input</string>
+    <string name="menu_item_activity">Activity</string>
+    <string name="menu_item_statistics">Statistics</string>
+    <string name="menu_item_history">History</string>
+    <string name="menu_item_settings">Settings</string>
+    <string name="menu_item_help_about">Help/About</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="activity">Activity</string>
+    <string name="subactivity">Subactivity</string>
+    <string name="intensity">Intensity</string>
+    <string name="low">low</string>
+    <string name="medium">medium</string>
+    <string name="high">high</string>
+
+
+    <!-- Strings related to Settings -->
+    <string name="pref_profile">User Profile</string>
+    <string name="pref_name">Name</string>
+    <string name="pref_name_summary">Name Surname</string>
+    <string name="pref_weight">Weight</string>
+    <string name="pref_weight_summary">insert weight</string>
+    <string name="pref_blood_sugar">Blood Sugar Level</string>
+    <string name="pref_blood_sugar_summary">insert blood sugar level</string>
+    <string name="pref_blood_sugar_dialogtitel">Blood Sugar Level</string>
+    <string name="pref_blood_sugar_dialogtitle">Enter your current blood sugar level</string>
+
+    <string name="pref_notification">Notifications</string>
+    <string name="pref_popup">Popup Notifications</string>
+    <string name="pref_sound">Notification Sound</string>
+    <string name="pref_vibration">Notification Vibration</string>
+
+    <string name="pref_weight_measurement">Weight Measurement</string>
+    <string name="pref_weight_measurement_summary">Choose your measurement</string>
+
+    <!-- Blood sugar input screen-->
+    <string name="milligram_dl">mg/dl</string>
+    <string name="mmol_l">mmol/l</string>
+
+    <string name="percentage">in %</string>
+    <string name="at">at</string>
+
+    <!-- Prediction Model -->
+    <string name="pref_reset">Prediction Model Reset</string>
+
+    <!--Daily Routine-->
+
+    <string name="starttime">Starttime</string>
+    <string name="endtime">Endtime</string>
+    <string name="duration">Duration</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="meal">Meal</string>
+
+    <!--Utility-->
+    <string name="edit">Edit</string>
+    <string name="add">Add</string>
+    <string name="ADD">ADD</string>
+    <string name="add_dialog_title">Add activity</string>
+    <string name="edit_dialog_title">Edit activity</string>
+    <string name="input_measurements">Input Measurements</string>
+
+    <string name="reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="export">Export</string>
+
+    <string name="help_welcome">Welcome!</string>
+    <string name="help_welcome_msg"><i><b>Here is a short introduction of the DiaPlanner</b></i> \n
+    </string>
+
+    <string name="help_welcome_msg2">
+    DiaPlanner helps you with your daily routine and supports you with diabetes \n
+    The main functionality are: \n \n
+    - Activity-Log -\n
+    - Prediction of the daily routine - \n
+    - Measurement statistics - \n
+    - Food tipps - \n
+    - Activity recommendation - \n
+
+    </string>
+
+    <string name="pref_reset_summary">Resets the prediction model</string>
+    <string name="pref_reset_dialog_message">Are you sure you want to reset the prediction model?</string>
+    <string name="pref_datacollection">Data Collection</string>
+    <string name="pref_datacollection_summary">Turn data collection on/off</string>
+    <string name="pref_predModel">Prediction Model</string>
+    <string name="pref_datacollection_dialog">Are you sure to stop the data collection? After the change, the prediction model could then not be accurate.</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="pref_vacation_title">Vacation Mode</string>
+    <string name="pref_vacation_summary">The vacation mode is used to stop data collection for the prediction model</string>
+
+    <!-- Notifications -->
+
+
+    <string name="pref_other">Other</string>
+    <string name="pref_assistant_summary">Stop the assistant notifications</string>
+    <string name="pref_help">Help</string>
+    <string name="ok">OK</string>
+    <string name="pref_dbexport">Database Export</string>
+    <string name="pref_dbexport_summary">Export the SQL-Database to your phone</string>
+    <string name="pref_dbexport_message">Do you really want to export the SQL-Database to your phone?</string>
+
+    <string name="pref_help_summary">Start app tutorial</string>
+    <string name="pref_help_dialog_message">TODO: start tutorial or some explainations, kleiner test von jens</string>
+    <string name="pref_version">Version</string>
+    <string name="pref_version_summary">1.0.1</string>
+
+
+    <string name="listItem123">92734098879.sqlite</string>
+
+    <string name="no_activities">No activity logs added yet.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_item_share">Share</string>
+    <string name="communicate">Communicate</string>
+    <string name="no_data">No Data existing</string>
+    <string name="activity_end">End</string>
+    <string name="activity_start">Start</string>
+    <string name="history_choose_date">Choose a Date: </string>
+    <string name="date_in_future">Date selected is in the future</string>
+
+
+    <!-- Strings related to Measurement Tab, created by: Naira-->
+    <string name="bloodSugar">Blood Sugar</string>
+    <string name="insulinLabel">Insulin Dosage</string>
+    <string name="glucoseTextField">mg/dl</string>
+    <string name="insulinTextField">Unit/mL</string>
+    <string name="DoneButton">Done</string>
+    <string name="gl">Glucose Level</string>
+
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <!-- days -->
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <string name="Sunday">Sunday</string>
+
+    <string name="invalid_time">Starttime must be before endtime!</string>
+    <string name="activity_limit">One activity has to be left.</string>
+    <string name="submit">Submit</string>
+    <string name="submit2">Submit</string>
+    <string name="image_failed">Failed to take an image.</string>
+    <string name="Description">Description</string>
+    <string name="insulinText">Insulin Dosage</string>
+    <string name="bloodsugar_prompt"> Enter current blood sugar level:</string>
+    <string name="bloodsugar_date">Insert the date:</string>
+    <string name="bloodsugar_time">Insert the time:</string>
+    <string name="recommendation">DiaPlanner recommends you...</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_activity">Add activity</string>
+    <string name="pref_assistant_notification">Assistant Notifications</string>
+    <string name="hint_date">Enter Date in Format YYYY-MM-DD </string>
+    <string name="error_date">Format: YYYY-MM-DD</string>
+    <string name="hint_time">Enter Time in hh:mm:ss</string>
+    <string name="hint_measurement">Enter your measurement value</string>
+    <string name="error_time">Format: hh:mm:ss</string>
+    <string name="add_blood_sugar_level">Add Blood sugar Level</string>
+    <string name="add_insulin_dosage">Add Insulin Dosage</string>
+    <string name="enter_insulin_dosage">Enter Insulin dosage</string>
+    <string name="units">Units</string>
+    <string name="ml_cc">mL/cc</string>
+    <string name="m_date"> Date</string>
+    <string name="m_time"> Time</string>
+
+    <!--Recommendations-->
+    <string name="rec_bs_between_150_200">You should better do some exercise because your blood sugar level is high!</string>
+    <string name="rec_bs_above_200">You should take insulin because your blood sugar is way to high!</string>
+    <string name="rec_bs_blow_100">Your blood sugar is low, have a meal.</string>
+
+    <string name="your_activity">Your previous activity was</string>
+    <string name="recom_pre">Therefore we recommend to eat/drink</string>
+    <string name="banana">banana</string>
+    <string name="and">and</string>
+    <string name="a">a</string>
+    <string name="a_ein">a</string>
+    <string name="a_eine">a</string>
+    <string name="an">an</string>
+    <string name="an_eine">an</string>
+    <string name="or">or</string>
+    <string name="two">two</string>
+    <string name="orange">orange</string>
+    <string name="strawberry">strawberry</string>
+    <string name="apple">apple</string>
+    <string name="apples">apples</string>
+    <string name="reg_soda">regular soda</string>
+    <string name="b_potatoes">boiled potatoes</string>
+    <string name="kale">kale - cooked, boiled or drained</string>
+    <string name="yoghurt">yoghurt - full cream plain</string>
+    <string name="diet_soda">diet soda</string>
+    <string name="tea">unsweetened tea</string>
+    <string name="tuna">tuna</string>
+    <string name="quinoa">quinoa</string>
+    <string name="pref_food_rec">Food Recommendation</string>
+    <string name="pref_bs_input">Reminder for blood sugar input</string>
+    <string name="pref_activity_rec">Recommendations for Activities</string>
+    <string name="Sonntag">Sunday</string>
+    <string name="pref_rec">Recommendations</string>
+    <string name="pref_key_dt">Decision Tree</string>
+    <string name="pref_key_gsp">Generalized Sequential Patterns</string>
+    <string name="pref_key_fuzzy">Fuzzy Miner</string>
+    <string name="pref_key_heuristics">Heuristics Miner</string>
+    <string name="algos">Algorithms to use</string>
+    <string name="algos_summary">Choose one or more prediction algorithms</string>
+    <string name="insulinInput">Insulin input</string>
+    <string name="error_loading_data">Training Data could not be imported</string>
+    <string name="predicting">Calculating daily routine...</string>
+    <string name="pref_algos_reset">Reset Prediction</string>
+    <string name="pref_algos_reset_summary">Reset the Prediction for the current Day</string>
+    <string name="pref_algos_reset_message">Are you sure you want to reset the Prediction?</string>
+    <string name="loadingData">Loading into database...</string>
+    <string name="added">Added</string>
+    <string name="chosen">Chosen file</string>
+    <string name="wrong_format">File format is not supported.</string>
+    <string name="usualBSM">Your usual blood sugar measurement is at</string>
+    <string name="timeToInputBS">It\'s time to input your measurement.</string>
+    <string name="pred_mode">Prediction granularity</string>
+
+    <string name="everyday">Every day</string>
+    <string name="weekday_weekend">Weekdays/Weekend</string>
+    <string name="single_day">Current day</string>
+    <string name="pred_mode_summary">Interval that is used as training data</string>
+    <string name="allTime">All Time</string>
+    <string name="current_day">Today</string>
+    <string name="last_week">Last 7 Days</string>
+    <string name="last_month">Last 30 Days</string>
+    <string name="all_time">All Time</string>
+    <string name="last_year">Last 365 Days</string>
+    <string name="activities">Activities</string>
+    <string name="measurements">Measurements</string>
+    <string name="insulin_mlcc">Insulin mL/cc</string>
+    <string name="bloodsugar_mgdl">Blood sugar mg/dl</string>
+    <string name="pref_blood_sugar_preference">Preferred Unit</string>
+    <string name="pref_blood_sugar_unit">Standard Blood Sugar Unit</string>
+    <string name="pref_insulin_unit">Standard Insulin Unit</string>
+    <string name="insulin_unit">unit</string>
+    <string name="chart_measurement"><![CDATA[Insulin & Blood sugar Chart]]></string>
+
+</resources>

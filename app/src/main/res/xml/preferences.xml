@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="pref_screen"
+    android:title="@string/menu_item_settings">
+    <intent
+        android:action="android.intent.action.VIEW"
+        android:targetPackage="uni.mannheim.teamproject.diabetesplaner"
+        android:targetClass="uni.mannheim.teamproject.diabetesplaner.UI.Settings.SettingsActivity" >
+        <extra android:name="page" android:value="pref_screen" />
+    </intent>
+
+    <PreferenceCategory
+        android:title="@string/pref_profile"
+        android:key="pref_key_profile"
+        >
+
+        <EditTextPreference
+            android:key="pref_key_name"
+            android:summary="@string/pref_name_summary"
+            android:title="@string/pref_name"
+            android:inputType="textPersonName"/>
+
+        <Preference
+            android:key="pref_key_bloodsugar"
+            android:summary="@string/pref_blood_sugar_summary"
+            android:title="@string/pref_blood_sugar"/>
+        <ListPreference
+            android:entries="@array/bloodsugarOptions"
+            android:entryValues="@array/bloodsugarOptions"
+            android:defaultValue="mg/dl"
+            android:key="pref_bloodsugarOptions"
+            android:summary="mg/dl"
+            android:title="@string/pref_blood_sugar_unit" />
+        <ListPreference
+            android:entries="@array/insulinOptions"
+            android:entryValues="@array/insulinOptions"
+            android:defaultValue="mL/cc"
+            android:key="pref_insulinOptions"
+            android:summary="mL/cc"
+            android:title="@string/pref_insulin_unit" />
+        <EditTextPreference
+            android:key="pref_key_weight"
+            android:summary="@string/pref_weight_summary"
+            android:title="@string/pref_weight"
+            android:inputType="numberDecimal"/>
+        <ListPreference
+            android:entries="@array/weightOptions"
+            android:entryValues="@array/weightOptions"
+            android:defaultValue="1"
+            android:key="pref_weightOptions"
+            android:summary="@string/pref_weight_measurement_summary"
+            android:title="@string/pref_weight_measurement" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_notification"
+        android:key="pref_key_notification">
+        <CheckBoxPreference
+            android:key="pref_key_popup"
+            android:title="@string/pref_popup"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="pref_key_sound"
+            android:title="@string/pref_sound"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:key="pref_key_vibrate"
+            android:title="@string/pref_vibration"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_rec"
+        android:key="pref_rec">
+        <CheckBoxPreference
+            android:key="pref_key_food_rec"
+            android:title="@string/pref_food_rec"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="pref_key_bs_input"
+            android:title="@string/pref_bs_input"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="pref_key_activity_rec"
+            android:title="@string/pref_activity_rec"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+
+    <!-- Prediction Model -->
+    <PreferenceCategory
+        android:title="@string/pref_predModel"
+        android:key="pref_predModel">
+
+        <CheckBoxPreference
+            android:key="pref_datacollection"
+            android:title="@string/pref_datacollection"
+            android:summary="@string/pref_datacollection_summary"
+            android:defaultValue="true"
+            android:dialogMessage="@string/pref_datacollection_dialog"
+            android:dialogIcon="@android:drawable/ic_dialog_alert"
+            android:positiveButtonText="@string/Yes"
+            android:negativeButtonText="@string/No"/>
+
+        <Preference
+            android:key="pref_algos_reset"
+            android:title="@string/pref_algos_reset"
+            android:summary="@string/pref_algos_reset_summary"/>
+
+        <ListPreference
+            android:key="pref_pred_mode"
+            android:title="@string/pred_mode"
+            android:summary="@string/pred_mode_summary"
+            android:entries="@array/pred_mode_names"
+            android:entryValues="@array/pred_mode_values"
+            android:defaultValue="1"/>
+
+        <PreferenceScreen
+            android:key="pref_key_algos_super"
+            android:title="@string/algos"
+            android:summary="@string/algos_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="uni.mannheim.teamproject.diabetesplaner"
+                android:targetClass="uni.mannheim.teamproject.diabetesplaner.UI.Settings.SettingsActivity" >
+                <extra android:name="page" android:value="pref_key_algos_super" />
+            </intent>
+            <CheckBoxPreference
+                android:key="pref_key_dt"
+                android:title="@string/pref_key_dt"
+                android:defaultValue="true" />
+            <CheckBoxPreference
+                android:key="pref_key_gsp"
+                android:title="@string/pref_key_gsp"
+                android:defaultValue="true" />
+            <CheckBoxPreference
+                android:key="pref_key_fuzzy"
+                android:title="@string/pref_key_fuzzy"
+                android:defaultValue="true" />
+            <CheckBoxPreference
+                android:key="pref_key_heuristics"
+                android:title="@string/pref_key_heuristics"
+                android:defaultValue="true" />
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_other"
+        android:key="pref_key_other">
+
+        <Preference
+            android:key="pref_key_export"
+            android:title="@string/pref_dbexport"
+            android:summary="@string/pref_dbexport_summary"/>
+
+        <Preference
+            android:key="pref_key_help"
+            android:title="@string/pref_help"
+            android:summary="@string/pref_help_summary"/>
+        <Preference
+            android:key="pref_key_about"
+            android:summary="@string/pref_version_summary"
+            android:title="@string/pref_version"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:contextClickable="true"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/bloodsugar_prompt"
+        android:id="@+id/tv_bloodsugar" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <!-- edited by Naira, adjusting button formats -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/bloodsugar_date"
+                android:id="@+id/bsi_insert_date"
+                android:gravity="center_vertical" />
+        </RelativeLayout>
+
+        <!-- edited by Naira, changing pickers into raised buttons -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_Date"
+                android:text="@string/m_date"
+                android:onClick="showTimePickerDialog"
+                android:layout_gravity="right"
+                android:textColor="@color/colorAccent" />
+        </RelativeLayout>
+
+        <!-- edited by Naira, changing pickers into raised buttons -->
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="4dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/bloodsugar_time"
+                android:id="@+id/bsi_insert_time"
+                android:gravity="center_vertical" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_time"
+                android:text="@string/m_time"
+                android:onClick="showTimePickerDialog"
+                android:layout_gravity="right"
+                android:textColor="@color/colorAccent" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="12dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/edit_measure_value"
+        android:layout_column="0"
+        android:numeric="decimal"
+        android:singleLine="true"
+        android:hint="@string/hint_measurement"
+        android:layout_marginTop="0dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="4dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_span="0"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <!-- RadioButton color adjusted by Naira-->
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/milligram_dl"
+            android:id="@+id/bs_mg"
+            android:checked="false"
+            android:buttonTint="@color/colorAccent"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/mmol_l"
+            android:id="@+id/bs_mm"
+            android:checked="false"
+            android:buttonTint="@color/colorAccent"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/percentage"
+            android:id="@+id/bs_percentage"
+            android:checked="false"
+            android:buttonTint="@color/colorAccent"/>
+
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+/gradle.properties
+/settings.gradle
+/build.gradle
+# Built application files
+/*/build/
+
+# Crashlytics configuations
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Gradle generated files
+.gradle/
+
+# Signing files
+# User-specific configurations
+
+# OS-specific files
+/app/build.gradle
+/.idea
+

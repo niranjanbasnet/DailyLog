@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:contextClickable="true"
+    android:orientation="vertical"
+    android:padding="20dp">
+<!-- creadted by Naira, measurements dialog view -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_date"
+            android:text="@string/m_date"
+            android:onClick="showTimePickerDialog"
+            android:background="@drawable/button_style"
+            style="@style/buttonStyle"
+            android:layout_gravity="left"
+            /> -->
+
+        <!-- <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_time"
+            android:text="@string/m_time"
+            android:onClick="showTimePickerDialog"
+            android:background="@drawable/button_style"
+            style="@style/buttonStyle"
+            android:layout_gravity="right"/>-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/bloodsugar_date"
+                android:id="@+id/textView3"
+                android:gravity="center_vertical" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_date"
+                android:text="@string/m_date"
+                android:onClick="showTimePickerDialog"
+                android:layout_gravity="left"
+                style="?android:attr/buttonStyleSmall"
+                android:gravity="center"
+                android:textColor="@color/colorAccent" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="4dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/bloodsugar_time"
+                android:id="@+id/textView4"
+                android:gravity="center_vertical" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_time"
+                android:text="@string/m_time"
+                android:onClick="showTimePickerDialog"
+                android:layout_gravity="left"
+                style="?android:attr/buttonStyleSmall"
+                android:gravity="center"
+                android:textColor="@color/colorAccent" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="12dp" />
+
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:id="@+id/blood_sugar_label"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/add_blood_sugar_level"
+        android:clickable="true"
+        android:checked="false"
+
+        />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/first_tableRow">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/edit_measure_value_entryscreen"
+                android:layout_column="0"
+                android:numeric="decimal"
+                android:singleLine="true"
+                android:hint="@string/hint_measurement"
+                android:paddingLeft="12dp"
+                android:gravity="center_horizontal" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+                <!-- RadioButton color adjusted by Naira-->
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/milligram_dl"
+                    android:id="@+id/bs_mg"
+                    android:checked="false"
+                    android:buttonTint="@color/colorAccent"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mmol_l"
+                    android:id="@+id/bs_mm"
+                    android:checked="false"
+                    android:buttonTint="@color/colorAccent"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/percentage"
+                    android:id="@+id/bs_percentage"
+                    android:checked="false"
+                    android:buttonTint="@color/colorAccent"/>
+
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+    </TableRow>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/add_insulin_dosage"
+        android:id="@+id/insulinDosage_label"
+        android:clickable="true"
+        android:checked="false"
+
+        />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/second_tableRow">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/edit_insulin_value"
+                android:layout_column="0"
+                android:numeric="decimal"
+                android:singleLine="true"
+                android:hint="@string/enter_insulin_dosage"
+                android:paddingLeft="12dp"
+                android:gravity="center_horizontal" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+                <!-- RadioButton color adjusted by Naira-->
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/units"
+                    android:id="@+id/insulin_unit"
+                    android:checked="false"
+                    android:buttonTint="@color/colorAccent"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ml_cc"
+                    android:id="@+id/insulin_ml"
+                    android:checked="false"
+                    android:buttonTint="@color/colorAccent"/>
+
+
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+    </TableRow>
+
+
+</LinearLayout>
